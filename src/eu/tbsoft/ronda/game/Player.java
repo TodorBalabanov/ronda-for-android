@@ -1,7 +1,12 @@
 package eu.tbsoft.ronda.game;
 
+import eu.tbsoft.ronda.dummy.SDL_Rect;
+import eu.tbsoft.ronda.dummy.SDL_Surface;
+
 public class Player {
-	Card hand[MAX_NB_CARDS_HAND];
+	private static final int MAX_BONUS = 3;
+
+	Card hand[] = new Card[Define.MAX_NB_CARDS_HAND];
 	
 	int nb_cards_in_hand;
 	

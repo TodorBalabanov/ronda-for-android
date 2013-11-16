@@ -5,7 +5,7 @@ import eu.tbsoft.ronda.dummy.SDL_Event;
 /**
  * 
  */
-public class ControllerData {
+public class controller_data {
 	/**
 	 * 
 	 */
@@ -67,7 +67,7 @@ public class ControllerData {
 	 * 
 	 * @return New instance.
 	 */
-	static public ControllerData controller_data_init() {
+	static public controller_data controller_data_init() {
 		return(null);
 	}
 

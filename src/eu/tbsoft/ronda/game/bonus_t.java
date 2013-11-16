@@ -2,8 +2,8 @@ package eu.tbsoft.ronda.game;
 
 import eu.tbsoft.ronda.dummy.SDL_Surface;
 
-public class BonusT {
-	BonusTypeT type;
+public class bonus_t {
+	bonus_type_t type;
 	
 	/** 
 	 * bonus text 

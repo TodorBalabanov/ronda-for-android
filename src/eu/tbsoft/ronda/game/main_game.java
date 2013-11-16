@@ -1,5 +1,5 @@
 package eu.tbsoft.ronda.game;
 
-public class Game {
+public class main_game {
 
 }

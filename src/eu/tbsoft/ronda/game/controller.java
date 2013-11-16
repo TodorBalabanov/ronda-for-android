@@ -1,5 +1,5 @@
 package eu.tbsoft.ronda.game;
 
-public class GameStateT {
+public class controller {
 
 }

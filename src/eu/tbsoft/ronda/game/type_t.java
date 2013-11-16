@@ -1,5 +1,5 @@
 package eu.tbsoft.ronda.game;
 
-public enum TypeT {
+public enum type_t {
 	USER, COMPUTER
 }

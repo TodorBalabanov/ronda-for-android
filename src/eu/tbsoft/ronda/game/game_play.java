@@ -1,5 +1,5 @@
 package eu.tbsoft.ronda.game;
 
-public class Controller {
+public class game_play {
 
 }

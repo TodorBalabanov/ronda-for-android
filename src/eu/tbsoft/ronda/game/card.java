@@ -6,7 +6,7 @@ import eu.tbsoft.ronda.dummy.SDL_Surface;
 /**
  * 
  */
-public class Card {
+public class card {
 	/** 
 	 * sprite of the card 
 	 */
@@ -20,5 +20,5 @@ public class Card {
 	/** 
 	 * value of the card
 	 */
-	CardNum value;  
+	card_num value;  
 }

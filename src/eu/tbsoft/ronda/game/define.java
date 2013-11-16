@@ -3,7 +3,7 @@ package eu.tbsoft.ronda.game;
 /**
  * 
  */
-public class Define {
+public class define {
 	public static final int NB_CARDS = 40;
 
 	public static final int NB_CARDS_TABLE = 4;

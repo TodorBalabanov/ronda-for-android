@@ -3,14 +3,14 @@ package eu.tbsoft.ronda.game;
 import eu.tbsoft.ronda.dummy.SDL_Rect;
 import eu.tbsoft.ronda.dummy.SDL_Surface;
 
-public class Player {
+public class player {
 	private static final int MAX_BONUS = 3;
 
-	Card hand[] = new Card[Define.MAX_NB_CARDS_HAND];
+	card hand[] = new card[define.MAX_NB_CARDS_HAND];
 	
 	int nb_cards_in_hand;
 	
-	ScoreT score;
+	score_t score;
 	
 	SDL_Surface score_box;
 	
@@ -19,11 +19,11 @@ public class Player {
 	/**
 	 *  este/mesa
 	 */
-	BonusT action_bonus[] = new BonusT[MAX_BONUS]; 
+	bonus_t action_bonus[] = new bonus_t[MAX_BONUS]; 
 	
-	BonusT card_bonus;
+	bonus_t card_bonus;
 	
-	TypeT type;
+	type_t type;
 	
 	/** 
 	 * selected hand index 

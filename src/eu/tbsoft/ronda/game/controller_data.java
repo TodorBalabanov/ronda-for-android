@@ -3,23 +3,23 @@ package eu.tbsoft.ronda.game;
 import eu.tbsoft.ronda.dummy.SDL_Event;
 
 /**
- * 
+ * controller data structure
  */
 public class controller_data {
 	/**
 	 * 
 	 */
-	boolean exit;
+	public boolean exit;
 	
 	/**
 	 * 
 	 */
-	int selected_card_hand;
+	public int selected_card_hand;
 	
 	/**
 	 * 
 	 */
-	int selected_card_table;
+	public int selected_card_table;
 	
 	/**
 	 * 
@@ -27,7 +27,7 @@ public class controller_data {
 	 * @param y
 	 * @return
 	 */
-	static public boolean valid_card_hand(int x, int y) {
+	static private boolean valid_card_hand(int x, int y) {
 		return(false);
 	}
 
@@ -37,7 +37,7 @@ public class controller_data {
 	 * @param y
 	 * @return
 	 */
-	static public boolean valid_card_table(int x, int y) {
+	static private boolean valid_card_table(int x, int y) {
 		return(false);
 	}
 	
@@ -47,7 +47,7 @@ public class controller_data {
 	 * @param x
 	 * @return
 	 */
-	static public int get_selected_hand(int x){
+	static private int get_selected_hand(int x){
 		return(0);
 	}
 	
@@ -58,8 +58,21 @@ public class controller_data {
 	 * @param y
 	 * @return
 	 */
-	static int get_selected_table(int x, int y) {
+	static private int get_selected_table(int x, int y) {
 		return(0);
+	}
+
+	/**
+	 * 
+	 */
+	static private void set_default_values() {
+	}
+	
+	/**
+	 * 
+	 * @param event
+	 */
+	static public void treat_mouse_click_event(SDL_Event event) {
 	}
 	
 	/**
@@ -74,19 +87,6 @@ public class controller_data {
 	/**
 	 * 
 	 */
-	public void set_default_values() {
-	}
-	
-	/**
-	 * 
-	 * @param event
-	 */
-	public void treat_mouse_click_event(SDL_Event event) {
-	}
-
-	/**
-	 * 
-	 */
-	public void controller_data_update() {
+	static public void controller_data_update() {
 	}
 }
